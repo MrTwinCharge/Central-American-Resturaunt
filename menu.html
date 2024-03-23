@@ -5,25 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">-->
 </head>
 <body>
     <header>
         <nav>
-            <img id="logo" src="image.png" style="width: 50px; padding-left: 20px; padding-bottom: 10px; float: left;">
-            <ul style="margin: 0; padding-top: 20px; overflow: hidden;">
-                <li style="float: left;"><a href="index.html">Home</a></li>
-                <li style="float: left;"><a href="menu.html">Menu</a></li>
-                <li style="float: left;"><a href="about.html">About Us</a></li>
-                <li style="float: left;"><a href="#gallery">Gallery</a></li>
-                <li style="float: left;"><a href="contact.html">Contact Us</a></li>
-            </ul>
+          <img
+            id="logo"
+            src="image.png"
+            style="
+              width: 50px;
+              padding-left: 20px;
+              padding-bottom: 10px;
+              float: left;
+            "
+          />
+          <ul style="margin: 0; padding-top: 20px; overflow: hidden">
+            <li style="float: left"><a href="index.html">Home</a></li>
+            <li style="float: left"><a href="menu.html">Menu</a></li>
+            <li style="float: left"><a href="#gallery">Gallery</a></li>
+            <li style="float: left"><a href="contact.html">Contact Us</a></li>
+          </ul>
         </nav>
-        <div style="clear: both;"></div> <!-- Clear floats -->
+        <div style="clear: both"></div>
+        <!-- Cear floats -->
+      </header>
     </header>
+    
+<!--
+    <section class="hero is-large is-info">
+        <div class="hero-body">
+          <p class="title">Large hero</p>
+          <p class="subtitle">Large subtitle</p>
+        </div>
+      </section>
+-->
+    <p style="text-align: center;">Our menu items are prepared with fresh ingredients and traditional Central American recipes. Explore our menu below:</p>
     <div id="search-container">
-        <input type="text" id="search-box" placeholder="Search menu items..." />
-        <button onclick="searchMenu()">Search</button>
+        <input type="text" id="search-box" placeholder="Search menu items..." oninput="liveSearch()" />
     </div>
+    <img src="pupusa.jpg" alt="Pupusa" style="width:35%;height:auto;position: absolute">    
+    <img src="pupusa2.jpg" alt="Pupusa2" style="width:35%;height:auto;position: absolute;padding-left:65%">
     <div id="menu-list"></div>
 
     <script src="menu.js"></script>
