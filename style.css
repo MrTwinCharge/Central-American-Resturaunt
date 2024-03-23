@@ -1,5 +1,6 @@
 body {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -29,6 +30,8 @@ nav ul li a {
 }
 
 =======
+=======
+>>>>>>> Stashed changes
     font-family: "Arial", sans-serif;
     margin: 0;
     padding: 0;
@@ -36,6 +39,7 @@ nav ul li a {
   }
   
   header {
+<<<<<<< Updated upstream
     background-color: #f2f4ea; /* SaddleBrown */
     color: #ffffff;
     padding: 10px 0;
@@ -46,12 +50,18 @@ nav ul li a {
   
   nav {
     display: flex;
+=======
+    background-color: #f2f4ea; /* Light Beige */
+    color: #ffffff;
+    padding-top: 10px;
+>>>>>>> Stashed changes
   }
   
   nav ul {
     list-style: none;
     display: flex;
     justify-content: left;
+<<<<<<< Updated upstream
     padding: 0; /* Remove default padding */
     margin: 0; /* Align items to the center of the nav */
   }
@@ -102,7 +112,64 @@ footer {
     width: 100%;
     bottom: 0;
 }
+=======
+  }
+  
+  nav ul li {
+    margin: 0 30px;
+  }
+  
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px; /* Increased padding for more space */
+    border-radius: 8px; /* Adjusted for more pronounced rounded corners */
+    display: inline-block; /* Ensures proper padding and background display */
+    line-height: normal; /* Ensures enough height for the content and background */
+  }
+    
+  nav ul li a:hover {
+    background-color: #aaa; /* Darker background on hover */
+    color: white; /* Optional: Change text color on hover for better contrast */
+  }
+  
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hero-section {
+    background-image: url("your-hero-image.jpg"); /* Replace with your image path */
+    background-size: cover;
+    color: black;
+    padding: 100px 20px;
+  }
+>>>>>>> Stashed changes
 
+  .cta-button {
+    background-color: #ff4500; /* OrangeRed */
+    color: white;
+    padding: 12px 24px; /* Adjusted padding for adequate space */
+    text-decoration: none;
+    display: inline-block; /* Ensures proper padding and background are displayed */
+    margin-top: 10px;
+    border-radius: 8px; /* Adjusted for more pronounced rounded corners */
+  }
+  .cta-button:hover {
+    background-color: #c03a00; /* Darker orange */
+    /* Optionally, adjust the border-radius or add a border if needed */
+  }
+  
+  footer {
+    background-color: #f2f4ea;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
 .menu-category h3 {
     color: #8B4513; /* Dark brown */
     margin-top: 20px;
