@@ -8,7 +8,8 @@ body {
 header {
   background-color: #f2f4ea; /* SaddleBrown */
   color: #ffffff;
-  padding: 10px 0;
+  padding-top: 10px ;
+  
 }
 
 nav ul {
@@ -18,7 +19,7 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 20px;
+  margin: 0 30px;
 }
 
 nav ul li a {
