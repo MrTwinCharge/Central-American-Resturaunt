@@ -6,22 +6,29 @@
     <title>Menu</title>
     <link rel="stylesheet" href="style.css">
     <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">-->
+    
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-            
+          <img
+            id="logo"
+            src="image.png"
+            style="
+              width: 50px;
+              padding-left: 20px;
+              padding-bottom: 10px;
+              float: left;
+            "
+          />
+           <!-- Cear floatkjsljs -->
+          <ul style="margin: 0; padding-top: 10px; overflow: hidden">
+            <li style="float: left"><a href="index.html">Home</a></li>
+            <li style="float: left"><a href="menu.html">Menu</a></li>
+            <li style="float: left"><a href="contact.html">Contact Us</a></li>
+          </ul>
         </nav>
-<<<<<<< Updated upstream
-    </header>
-    
+
 <!--
     <section class="hero is-large is-info">
         <div class="hero-body">
@@ -31,7 +38,7 @@
       </section>
 -->
     <p style="text-align: center;">Our menu items are prepared with fresh ingredients and traditional Central American recipes. Explore our menu below:</p>
-=======
+
         <div style="clear: both"></div>
         <!-- Cear floats -->
       </header>
@@ -46,12 +53,9 @@
 
     <!--<p style="text-align: center;font-size:43px;color:white;">Our menu items are prepared with fresh ingredients and traditional Central American recipes. Explore our menu below:</p>-->
     <h2 style="text-align: center; color: white;">Our Menu</h2> 
->>>>>>> Stashed changes
     <div id="search-container">
         <input type="text" id="search-box" placeholder="Search menu items..." oninput="liveSearch()" style="border-radius: 15px;"/>
     </div>
-    <img src="pupusa.jpg" alt="Pupusa" style="width:35%;height:auto;position: absolute">    
-    <img src="pupusa2.jpg" alt="Pupusa2" style="width:35%;height:auto;position: absolute;padding-left:65%">
     <div id="menu-list"></div>
 
     <script src="menu.js"></script>
