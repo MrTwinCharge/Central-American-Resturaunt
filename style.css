@@ -54,9 +54,22 @@ section {
   background-color: #c03a00; /* Darker orange */
 }
 
+.image-background-section {
+    /* Replace 'your-image-url.jpg' with the path to your actual image */
+    background-image: url('nac.jpg');
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    height: 500px; /* Set the height of the section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color */
+    text-align: center;
+}
+
 footer {
   background-color: #f2f4ea;
-  color: white;
+  color: black;
   text-align: center;
   padding: 10px 0;
   position: fixed;
@@ -87,7 +100,36 @@ footer {
 }
 
 /* Center the menu list while aligning its text to the left */
+.background-section {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
 
+  .background-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('nac.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Adjust opacity here */
+  }
+
+  .back {
+    position: relative;
+    z-index: 1; /* Ensures text appears above the background */
+    
+  }
 /* Add some styles to the input and button for better appearance */
 #search-box,
 button {
