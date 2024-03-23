@@ -39,7 +39,54 @@ body {
     }
   section {
     padding: 20px;
+    text-align: left;
+    color: white;
+  }
+  
+  .hero-section {
+    background-image: url("your-hero-image.jpg"); /* Replace with your image path */
+    background-size: cover;
+    color: black;
+    padding: 100px 20px;
+  }
+  .cta-button {
+      background-color: #ff4500; /* OrangeRed */
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+      border-radius: 5px;
+  }
+
+  
+  .cta-button:hover {
+    background-color: #c03a00; /* Darker orange */
+  }
+  
+  .image-background-section {
+      /* Replace 'your-image-url.jpg' with the path to your actual image */
+    
+      background-size: cover; /* Cover the entire section */
+      background-position: center; /* Center the background image */
+      height: 500px; /* Set the height of the section */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white; /* Text color */
+      text-align: center;
+  }
+  
+  footer {
+    padding-top: 20px;
+    background-color: #f2f4ea;
+    color: black;
     text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+
   }
   
 }
@@ -290,5 +337,4 @@ iframe {
   border: none; /* Removes the default border */
   margin-bottom: 20px; /* Adds some space below the map */
 }
-
 
