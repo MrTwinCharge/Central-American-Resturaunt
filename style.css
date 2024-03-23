@@ -3,14 +3,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #93cdbf; /* Beige background */
+    color: white;
   }
   
   header {
-    
     background-color: #f2f4ea; /* SaddleBrown */
     color: #ffffff;
     padding-top: 10px ;
-    
     
   }
   
@@ -40,8 +39,7 @@ body {
     }
   section {
     padding: 20px;
-    text-align: left;
-    color: white;
+    text-align: center;
   }
   
   .hero-section {
@@ -78,11 +76,11 @@ body {
   }
   
   footer {
-    padding-top: 20px;
     background-color: #f2f4ea;
     color: black;
     text-align: center;
     padding: 10px 0;
+    position: fixed;
     width: 100%;
     bottom: 0;
   }
@@ -139,8 +137,9 @@ body {
       position: relative;
       text-align: center;
       color: white;
-      font-size: 24px;
+      font-size: 45px;
       height: 300px;
+      font-weight: bold;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -154,7 +153,7 @@ body {
       left: 0;
       right: 0;
       bottom: 0;
-      background-image: url('');
+      background-image: url('menuImage.jpg');
       background-size: cover;
       background-position: center;
       opacity: 0.5; /* Adjust opacity here */
@@ -186,6 +185,7 @@ body {
   button:hover {
     background-color: #0056b3; /* Darker blue on hover */
   }
+
   address {
     margin: 20px 0;
     line-height: 1.6;
@@ -197,4 +197,6 @@ body {
     border: none;
     margin: 20px 0;
   }
-  
+  .text-left {
+    text-align: left;
+}
