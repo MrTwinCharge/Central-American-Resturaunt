@@ -16,13 +16,13 @@
                 <li style="float: left;"><a href="about.html">About Us</a></li>
                 <li style="float: left;"><a href="#gallery">Gallery</a></li>
                 <li style="float: left;"><a href="contact.html">Contact Us</a></li>
+
             </ul>
         </nav>
         <div style="clear: both;"></div> <!-- Clear floats -->
     </header>
     <div id="search-container">
-        <input type="text" id="search-box" placeholder="Search menu items..." />
-        <button onclick="searchMenu()">Search</button>
+        <input type="text" id="search-box" placeholder="Search menu items..." oninput="liveSearch()" />
     </div>
     <div id="menu-list"></div>
 

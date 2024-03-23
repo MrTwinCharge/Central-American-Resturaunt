@@ -1,4 +1,15 @@
 {
+    "Pupusas": [
+        {"name": "PORK AND CHEESE PUPUSA", "price": 3},
+        {"name": "CHICKEN AND CHEESE PUPUSA", "price": 3},
+        {"name": "BEAN AND CHEESE PUPUSA", "price": 3},
+        {"name": "LOROCO AND CHEESE PUPUSA", "price": 3},
+        {"name": "SQUASH AND CHEESE PUPUSA", "price": 3},
+        {"name": "JALEPEÑO AND CHEESE PUPUSA", "price": 3},
+        {"name": "SPINACH AND CHEESE PUPUSA", "price": 3},
+        {"name": "CHORIZO AND CHEESE PUPUSA", "price": 3},
+        {"name": "CHEESE PUPUSA", "price": 3}
+    ],
     "Main Dishes": [
         {
             "name": "BEEF OR CHICKEN SOUP",
@@ -17,19 +28,11 @@
             "price": 13.99
         },
         {   
-            "name": "VEGETALE SAUCE CHICKEN",
+            "name": "VEGETABLE SAUCE CHICKEN",
             "price": 13.99
         },
         {
-            "name": "YUCA FRITA Y CHICHARRON",
-            "price": 13.49
-        },
-        {
             "name": "FRIED YUCA WITH FRIED PORK MEAT",
-            "price": 13.75
-        },
-        {
-            "name": "POLLO FRITO",
             "price": 13.75
         },
         {
@@ -93,7 +96,17 @@
         {
             "name": "CORN TAMALES WITH CREAM",
             "price": 3.5
+        },
+        {
+            "name": "SALVADORNO-HONDURENO TAMALE",
+            "price": 3.5
         }
+    ],
+    "Tacos": [
+        {"name": "ORDER OF 3 FAJITA TACOS", "price": 10.99},
+        {"name": "ORDER OF 3 CHICKEN TACOS", "price": 10.99},
+        {"name": "ORDER OF 3 STREET TACOS", "price": 10.99},
+        {"name": "ORDER OF 3 FISH TACOS", "price": 10.99}
     ],
     "American Plates": [
         {
@@ -103,59 +116,21 @@
         {
             "name": "CLUB SANDWICH",
             "price": 12.95
+        },
+        {
+            "name": "BEEF OR CHICKEN BURRITO",
+            "price": 13.49
         }
     ],
     "Others": [
         {
-            "name": "BURRITO",
+            "name": "CHICKEN OR BEEF QUESADILLAS",
             "price": 13.49
         },
         {
-            "name": "CHEESEBURGER WITH CHEESE",
-            "price": 13.49
-        },
-        {
-            "name": "HAM AND CHEESE SANDWICH WITH WHOLE WHEAT BREAD",
-            "price": 12.95
+            "name": "BREAKFAST AND DINNER",
+            "price": 13.51
         }
-    ],
-    "Pupusas": [
-        {
-            "name": "Pork and Cheese Pupusa",
-            "price": 3
-        },
-        {
-            "name": "Chicken and Cheese Pupusa",
-            "price": 3
-        },
-        {
-            "name": "Bean and Cheese Pupusa",
-            "price": 3
-        },
-        {
-            "name": "Loroco and Cheese Pupusa",
-            "price": 3
-        },
-        {
-            "name": "Squash and Cheese Pupusa",
-            "price": 3
-        },
-        {
-            "name": "Jalepeño and Cheese Pupusa",
-            "price": 3
-        },
-        {
-            "name": "Spinach and Cheese Pupusa",
-            "price": 3
-        },
-        {
-            "name": "Chorizo and Cheese Pupusa",
-            "price": 3
-        },
-        {
-            "name": "Cheese Pupusa",
-            "price": 3
-        }
-
     ]
+
 }
