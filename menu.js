@@ -18,6 +18,7 @@ fetch('/db.json')
                 const section = document.createElement('section');
                 const h2 = document.createElement('h2');
                 h2.textContent = category;
+                h2.classname = "text-center";
                 section.appendChild(h2);
     
                 data[category].forEach(item => {
@@ -25,6 +26,8 @@ fetch('/db.json')
                     // Format price to two decimal places
                     const formattedPrice = parseFloat(item.price).toFixed(2);
                     p.textContent = `${item.name} - $${formattedPrice}`;
+                    p.classname = "text-center";
+
                     section.appendChild(p);
                 });
     
