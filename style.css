@@ -3,10 +3,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #93cdbf; /* Beige background */
+    color: white;
   }
   
   header {
-    
     background-color: #f2f4ea; /* SaddleBrown */
     color: #ffffff;
     padding-top: 10px ;
@@ -86,45 +86,117 @@ body {
     width: 100%;
     bottom: 0;
     position: fixed;
+
   }
   
-  .menu-category h3 {
-    color: #8b4513; /* Dark brown */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+}
+
+nav ul li {
+    margin: 0 30px;
+  }
+
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px; 
+    border-radius: 8px;
+    display: inline-block; 
+    line-height: normal;
+  }
+
+  nav ul li a:hover {
+    background-color: #aaa;
+    color: white; /
+  }
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+.hero-section {
+  background-image: url("your-hero-image.jpg"); /* Replace with your image path */
+  background-size: cover;
+  color: black;
+  padding: 100px 20px;
+}
+.cta-button {
+    background-color: #ff4500; /* OrangeRed */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
     margin-top: 20px;
-  }
-  
-  .menu-category ul {
-    list-style: none;
-    padding: 0;
-  }
-  .text-center{
-    text-align: center;
-  }
-  .menu-category ul li {
-    background-color: #93cdbf; /* Light beige */
-    margin: 5px 0;
-    padding: 5px;
     border-radius: 5px;
-  }
+}
+
+.cta-button:hover {
+  background-color: #c03a00; /* Darker orange */
+}
+
+.image-background-section {
+    /* Replace 'your-image-url.jpg' with the path to your actual image */
   
-  /* Center the search container */
-  #search-container {
-    text-align: center; /* Center the content inside the container */
-  }
-  
-  /* Center the menu list while aligning its text to the left */
-  .background-section1 {
-      position: relative;
-      text-align: center;
-      color: white;
-      font-size: 24px;
-      height: 300px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-    }
-  
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    height: 500px; /* Set the height of the section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color */
+    text-align: center;
+}
+
+footer {
+  background-color: #f2f4ea;
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.menu-category h3 {
+  color: #8b4513; /* Dark brown */
+  margin-top: 20px;
+}
+
+.menu-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-category ul li {
+  background-color: #93cdbf; /* Light beige */
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Center the search container */
+#search-container {
+  text-align: center; /* Center the content inside the container */
+}
+
+/* Center the menu list while aligning its text to the left */
+.background-section1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
     .background-section1::before {
       content: '';
       position: absolute;
@@ -139,129 +211,130 @@ body {
     }
   
     .background-section2 {
-        position: relative;
-        text-align: center;
-        color: white;
-        font-size: 45px;
-        height: 300px;
-        font-weight: bold;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-      }
-    
-      .background-section2::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: url('menuImage.jpg');
-        background-size: cover;
-        background-position: center;
-        opacity: 0.5; /* Adjust opacity here */
-      }
-    
-      .back {
-        position: relative;
-        z-index: 1; /* Ensures text appears above the background */
-        
-      }
-  /* Add some styles to the input and button for better appearance */
-  #search-box,
-  button {
-    margin: 10px; /* Add some spacing */
-    padding: 5px; /* Add some padding */
-  }
-  
-  /* Optional: Add some more styling to the button for aesthetics */
-  button {
-    cursor: pointer; /* Changes the cursor to a pointer on hover */
-    padding: 10px 20px; /* Bigger padding for a larger button */
-    border: none; /* Removes the border */
-    background-color: darkorange; /* A nice shade of blue */
-    color: white; /* White text */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 1rem; /* Larger font size */
-  }
-  
-  button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-  }
-  address {
-    margin: 20px 0;
-    line-height: 1.6;
-  }
-  
-  iframe {
-    width: 100%;
-    height: 400px;
-    border: none;
-    margin: 20px 0;
-  }
-
-  #contact-page #contact {
-    display: flex;
-    flex-wrap: wrap; /* Ensure responsiveness */
-    justify-content: space-between;
-    align-items: center; /* Centers items vertically */
-    padding: 40px 0; /* Adds padding to the top and bottom */
-  }
-  
-  #contact-page #contact > div {
-    flex: 1;
-    padding: 20px;
-    min-width: 300px; /* Ensures wrapping on smaller screens */
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centers the content inside each div vertically */
-  }
-  
-  #contact-page textarea, 
-  #contact-page input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  #contact-page input[type="submit"] {
-    background-color: #ff4500;
-    color: white;
-    cursor: pointer;
-    border: none;
-  }
-  
-  #contact-page input[type="submit"]:hover {
-    background-color: #c03a00;
-  }
-  
-  #contact-page address,
-  #contact-page label,
-  #contact-page h2,
-  #contact-page p {
+      position: relative;
+      text-align: center;
       color: white;
-  }
+      font-size: 45px;
+      height: 300px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
   
-  #contact-page textarea {
-    width: 100%; 
-    margin-bottom: 10px; /* Adjusts spacing between textarea and button */
-  }
+    .background-section2::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url('menuImage.jpg');
+      background-size: cover;
+      background-position: center;
+      opacity: 0.5; /* Adjust opacity here */
+    }
   
-  #contact-page input[type="submit"] {
-    display: block; 
-    margin: 0 auto; 
-    padding: 10px 20px; 
-  }
-  
-  #contact-page iframe {
-    border-radius: 15px; /* Rounded corners for the map */
-    width: 100%; /* Ensures the map stretches to the width of its container */
-    height: 450px; /* Adjust height as needed */
-    border: none; /* Removes the default border */
-    margin-bottom: 20px; /* Adds some space below the map */
-  }
-  
+    .back {
+      position: relative;
+      z-index: 1; /* Ensures text appears above the background */
+      
+    }
+
+/* Add some styles to the input and button for better appearance */
+#search-box,
+button {
+  margin: 10px; /* Add some spacing */
+  padding: 5px; /* Add some padding */
+}
+
+/* Optional: Add some more styling to the button for aesthetics */
+button {
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  padding: 10px 20px; /* Bigger padding for a larger button */
+  border: none; /* Removes the border */
+  background-color: darkorange; /* A nice shade of blue */
+  color: white; /* White text */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem; /* Larger font size */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+address {
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  margin: 20px 0;
+}
+/* Contact page specific styles */
+#contact-page #contact {
+  display: flex;
+  flex-wrap: wrap; /* Ensure responsiveness */
+  justify-content: space-between;
+  align-items: center; /* Centers items vertically */
+  padding: 40px 0; /* Adds padding to the top and bottom */
+}
+
+#contact-page #contact > div {
+  flex: 1;
+  padding: 20px;
+  min-width: 300px; /* Ensures wrapping on smaller screens */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers the content inside each div vertically */
+}
+
+#contact-page textarea, 
+#contact-page input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact-page input[type="submit"] {
+  background-color: #ff4500;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+#contact-page input[type="submit"]:hover {
+  background-color: #c03a00;
+}
+
+#contact-page address,
+#contact-page label,
+#contact-page h2,
+#contact-page p {
+    color: white;
+}
+
+#contact-page textarea {
+  width: 100%; 
+  margin-bottom: 10px; /* Adjusts spacing between textarea and button */
+}
+
+#contact-page input[type="submit"] {
+  display: block; 
+  margin: 0 auto; 
+  padding: 10px 20px; 
+}
+
+#contact-page iframe {
+  border-radius: 15px; /* Rounded corners for the map */
+  width: 100%; /* Ensures the map stretches to the width of its container */
+  height: 450px; /* Adjust height as needed */
+  border: none; /* Removes the default border */
+  margin-bottom: 20px; /* Adds some space below the map */
+}
+
