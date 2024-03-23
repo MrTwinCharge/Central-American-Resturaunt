@@ -96,7 +96,9 @@ body {
     list-style: none;
     padding: 0;
   }
-  
+  .text-center{
+    text-align: center;
+  }
   .menu-category ul li {
     background-color: #93cdbf; /* Light beige */
     margin: 5px 0;
@@ -136,35 +138,36 @@ body {
     }
   
     .background-section2 {
-      position: relative;
-      text-align: center;
-      color: white;
-      font-size: 24px;
-      height: 300px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-    }
-  
-    .background-section2::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-image: url('');
-      background-size: cover;
-      background-position: center;
-      opacity: 0.5; /* Adjust opacity here */
-    }
-  
-    .back {
-      position: relative;
-      z-index: 1; /* Ensures text appears above the background */
-      
-    }
+        position: relative;
+        text-align: center;
+        color: white;
+        font-size: 45px;
+        height: 300px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+    
+      .background-section2::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url('menuImage.jpg');
+        background-size: cover;
+        background-position: center;
+        opacity: 0.5; /* Adjust opacity here */
+      }
+    
+      .back {
+        position: relative;
+        z-index: 1; /* Ensures text appears above the background */
+        
+      }
   /* Add some styles to the input and button for better appearance */
   #search-box,
   button {

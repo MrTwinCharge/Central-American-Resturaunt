@@ -6,7 +6,6 @@
     <title>Menu</title>
     <link rel="stylesheet" href="style.css">
     <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">-->
-    
 </head>
 <body>
     <header>
@@ -21,7 +20,6 @@
               float: left;
             "
           />
-           <!-- Cear floatkjsljs -->
           <ul style="margin: 0; padding-top: 20px; overflow: hidden">
             <li style="float: left"><a href="index.html">Home</a></li>
             <li style="float: left"><a href="menu.html">Menu</a></li>
@@ -29,24 +27,25 @@
           </ul>
         </nav>
         <div style="clear: both"></div>
-        <!-- Cear floats -->
+        <!-- Cear floatkjsljs -->
       </header>
-<!--
-    <section class="hero is-large is-info">
-        <div class="hero-body">
-          <p class="title">Large hero</p>
-          <p class="subtitle">Large subtitle</p>
-        </div>
-      </section>
--->
-    <p style="text-align: center;">Our menu items are prepared with fresh ingredients and traditional Central American recipes. Explore our menu below:</p>
-    <div id="search-container">
-        <input type="text" id="search-box" placeholder="Search menu items..." oninput="liveSearch()" />
+    
+      <section id="home" class="background-section2">
+        <div style="opacity: 1;" class="back"> MENU <h1 class="back"></h1>  
+   
+       </div>
+       
+       </section>
+
+
+    <!--<p style="text-align: center;font-size:43px;color:white;">Our menu items are prepared with fresh ingredients and traditional Central American recipes. Explore our menu below:</p>-->
+    <h2 style="text-align: center; color: white;">Our Menu</h2> 
+    <div id="search-container" >
+        <input type="text" id="search-box" placeholder="Search menu items..." oninput="liveSearch()" style="border-radius: 15px;"/>
     </div>
-    <img src="pupusa.jpg" alt="Pupusa" style="width:35%;height:auto;position: absolute">    
-    <img src="pupusa2.jpg" alt="Pupusa2" style="width:35%;height:auto;position: absolute;padding-left:65%">
     <div id="menu-list"></div>
 
     <script src="menu.js"></script>
+
 </body>
 </html>
