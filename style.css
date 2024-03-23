@@ -6,9 +6,11 @@ body {
   }
   
   header {
+    
     background-color: #f2f4ea; /* SaddleBrown */
     color: #ffffff;
     padding-top: 10px ;
+    
     
   }
   
@@ -38,7 +40,8 @@ body {
     }
   section {
     padding: 20px;
-    text-align: center;
+    text-align: left;
+    color: white;
   }
   
   .hero-section {
@@ -75,11 +78,11 @@ body {
   }
   
   footer {
+    padding-top: 20px;
     background-color: #f2f4ea;
     color: black;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     width: 100%;
     bottom: 0;
   }
