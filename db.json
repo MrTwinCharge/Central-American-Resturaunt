@@ -1,0 +1,161 @@
+{
+    "Main Dishes": [
+        {
+            "name": "BEEF OR CHICKEN SOUP",
+            "price": 14.99
+        },
+        {
+            "name": "CHOPPED BEEF",
+            "price": 13.99
+        },
+        {
+            "name": "CARNE GUISADA",
+            "price": 13.99
+        },
+        {
+            "name": "CHICKEN PEPIAN",
+            "price": 13.99
+        },
+        {   
+            "name": "VEGETALE SAUCE CHICKEN",
+            "price": 13.99
+        },
+        {
+            "name": "YUCA FRITA Y CHICHARRON",
+            "price": 13.49
+        },
+        {
+            "name": "FRIED YUCA WITH FRIED PORK MEAT",
+            "price": 13.75
+        },
+        {
+            "name": "POLLO FRITO",
+            "price": 13.75
+        },
+        {
+            "name": "FRIED CHICKEN",
+            "price": 13.5
+        },
+        {
+            "name": "CHAPIN CHURRASCO (GRILL STEAK)",
+            "price": 16.99
+        },
+        {
+            "name": "FRIED FISH",
+            "price": 13.99
+        },
+        {
+            "name": "GRILLED TILAPIA",
+            "price": 14.99
+        },
+        {
+            "name": "CHICKEN WITH PLANTAIN",
+            "price": 14.99
+        },
+        {
+            "name": "MY FLAVORED SHRIMP",
+            "price": 14.99
+        }
+    ],
+    "Sides": [
+        {
+            "name": "EXTRA TORTILLAS",
+            "price": 2.5
+        },
+        {
+            "name": "BEAN SIDE",
+            "price": 3.5
+        },
+        {
+            "name": "RICE SIDE",
+            "price": 3.5
+        }
+    ],
+    "Appetizers": [
+        {
+            "name": "WHOLE PLANTAIN",
+            "price": 4.75
+        },
+        {
+            "name": "FRIED PLANTAINS",
+            "price": 6.99
+        },
+        {
+            "name": "ORDER OF 3 FOLDED CHICKEN OR BEEF PATTIES",
+            "price": 13.5
+        }
+    ],
+    "Tamales": [
+        {
+            "name": "CHICKEN TAMALES",
+            "price": 3.5
+        },
+        {
+            "name": "CORN TAMALES WITH CREAM",
+            "price": 3.5
+        }
+    ],
+    "American Plates": [
+        {
+            "name": "CHEESE BURGER",
+            "price": 13.49
+        },
+        {
+            "name": "CLUB SANDWICH",
+            "price": 12.95
+        }
+    ],
+    "Others": [
+        {
+            "name": "BURRITO",
+            "price": 13.49
+        },
+        {
+            "name": "CHEESEBURGER WITH CHEESE",
+            "price": 13.49
+        },
+        {
+            "name": "HAM AND CHEESE SANDWICH WITH WHOLE WHEAT BREAD",
+            "price": 12.95
+        }
+    ],
+    "Pupusas": [
+        {
+            "name": "Pork and Cheese Pupusa",
+            "price": 3
+        },
+        {
+            "name": "Chicken and Cheese Pupusa",
+            "price": 3
+        },
+        {
+            "name": "Bean and Cheese Pupusa",
+            "price": 3
+        },
+        {
+            "name": "Loroco and Cheese Pupusa",
+            "price": 3
+        },
+        {
+            "name": "Squash and Cheese Pupusa",
+            "price": 3
+        },
+        {
+            "name": "Jalepeño and Cheese Pupusa",
+            "price": 3
+        },
+        {
+            "name": "Spinach and Cheese Pupusa",
+            "price": 3
+        },
+        {
+            "name": "Chorizo and Cheese Pupusa",
+            "price": 3
+        },
+        {
+            "name": "Cheese Pupusa",
+            "price": 3
+        }
+
+    ]
+}
