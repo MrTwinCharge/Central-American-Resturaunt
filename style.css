@@ -19,15 +19,23 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 30px;
-}
+    margin: 0 30px;
+  }
 
-nav ul li a {
-  color: #ff8052;
-  text-decoration: none;
-  font-weight: bold;
-}
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px; 
+    border-radius: 8px;
+    display: inline-block; 
+    line-height: normal;
+  }
 
+  nav ul li a:hover {
+    background-color: #aaa;
+    color: white; /
+  }
 section {
   padding: 20px;
   text-align: center;
@@ -39,15 +47,14 @@ section {
   color: black;
   padding: 100px 20px;
 }
-
 .cta-button {
-  background-color: #ff4500; /* OrangeRed */
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 20px;
-  border-radius: 5px;
+    background-color: #ff4500; /* OrangeRed */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
 }
 
 .cta-button:hover {
