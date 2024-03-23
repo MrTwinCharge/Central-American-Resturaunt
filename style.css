@@ -1,4 +1,5 @@
 body {
+<<<<<<< Updated upstream
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -27,6 +28,45 @@ nav ul li a {
     font-weight: bold;
 }
 
+=======
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #93cdbf; /* Beige background */
+  }
+  
+  header {
+    background-color: #f2f4ea; /* SaddleBrown */
+    color: #ffffff;
+    padding: 10px 0;
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Align items to the center of the nav */
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #ff8052;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+>>>>>>> Stashed changes
 section {
     padding: 20px;
     text-align: center;
