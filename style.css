@@ -56,7 +56,7 @@ section {
 
 .image-background-section {
     /* Replace 'your-image-url.jpg' with the path to your actual image */
-    background-image: url('nac.jpg');
+  
     background-size: cover; /* Cover the entire section */
     background-position: center; /* Center the background image */
     height: 500px; /* Set the height of the section */
@@ -100,7 +100,7 @@ footer {
 }
 
 /* Center the menu list while aligning its text to the left */
-.background-section {
+.background-section1 {
     position: relative;
     text-align: center;
     color: white;
@@ -112,7 +112,7 @@ footer {
     overflow: hidden;
   }
 
-  .background-section::before {
+  .background-section1::before {
     content: '';
     position: absolute;
     top: 0;
@@ -120,6 +120,31 @@ footer {
     right: 0;
     bottom: 0;
     background-image: url('nac.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Adjust opacity here */
+  }
+
+  .background-section2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .background-section2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('');
     background-size: cover;
     background-position: center;
     opacity: 0.5; /* Adjust opacity here */
