@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; /* Beige background */
+}
+
+header {
+    background-color: #ff8052; /* SaddleBrown */
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-section {
+    background-image: url('your-hero-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+}
+
+.cta-button {
+    background-color: #ff4500; /* OrangeRed */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #c03a00; /* Darker orange */
+}
+
+footer {
+    background-color: #ff8052;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.menu-category h3 {
+    color: #8B4513; /* Dark brown */
+    margin-top: 20px;
+}
+
+.menu-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-category ul li {
+    background-color: #f5f5dc; /* Light beige */
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
