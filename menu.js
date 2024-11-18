@@ -1,7 +1,7 @@
 // Load the JSON data immediately and store it
 let menuData = {};
 /* Cover the entire section */
-fetch('/db.json')
+fetch('db.json')
     .then(response => response.json())
     .then(data => {
         menuData = data;
